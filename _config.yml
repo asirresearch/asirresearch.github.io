@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: ASIR # the website title (if blank, full name will be used instead)
-first_name: Advanced Sensing and Interaction
-middle_name: *
-last_name: Research
+title: ASIR Homepage # the website title (if blank, full name will be used instead)
+first_name: Xiang
+#middle_name:
+last_name: Wu
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
