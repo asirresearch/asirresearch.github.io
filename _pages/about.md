@@ -11,7 +11,7 @@ profile:
     <p>No.100 Lianhua Street, Hi-Tech Zone, Zhengzhou city, China.</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: flase # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
