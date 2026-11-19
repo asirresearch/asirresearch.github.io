@@ -9,12 +9,10 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>No.100 Lianhua Street, Hi-Tech Zone, Zhengzhou city, China.</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: flase # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -26,9 +24,16 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Research Group Profile
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.png` and put it in the `img/` folder.
+We focus on visual information perception and recognition, and robotic interaction and control technologies for interdisciplinary innovation and applications, including:
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Visual inspection, nonlinear control and motion planning, and multi-target detection and cooperative control technologies for advanced manufacturing;
+Image enhancement and 3D reconstruction technologies for human–robot interaction, AI-assisted design, and interdisciplinary data analysis and creative applications.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Group Activities
+
+Up2x Practice & Training Camp: Organizing graduate and undergraduate students to participate in interdisciplinary competitions and carry out innovation and creativity practice projects.
+Frontier Technology Seminars: Inviting professors, experts, and outstanding students to share technical topics and learning experiences.
+Regular sharing of cutting-edge industry information and corporate needs, to align academic research with industrial demands
+
