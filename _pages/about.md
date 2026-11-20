@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Advanced Sensing & Interaction Research
+subtitle: <a href='#'>Advanced Sensing & Interaction Research</a>. 
 profile:
   align: right
   image: group_ai.png
