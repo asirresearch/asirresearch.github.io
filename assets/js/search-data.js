@@ -23,19 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-news",
+          title: "news",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/news/";
           },
         },{id: "dropdown-bookshelf",
               title: "bookshelf",
@@ -43,6 +36,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/books/";
+              },
+            },{id: "dropdown-people",
+              title: "people",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/people/";
               },
             },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
