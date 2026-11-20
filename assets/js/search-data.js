@@ -66,7 +66,12 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
+      },{id: "books-tutorials-of-raicom-with-ros1",
+          title: 'Tutorials of RAICOM with ROS1',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/Tutorials_RAICOM_ROS1/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
