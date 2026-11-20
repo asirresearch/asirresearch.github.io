@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications by ASIRers.
+description: featured publications by ASIRers.
 nav: true
 nav_order: 2
 ---
