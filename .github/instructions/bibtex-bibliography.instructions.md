@@ -49,6 +49,7 @@ Beyond standard BibTeX fields, al-folio supports custom keywords for rich public
 - **dimensions:** Dimensions badge ID for citation metrics
 - **doi:** Digital Object Identifier (`doi: 10.1234/example`)
 - **html:** URL to full text or project page (`html: https://example.com`)
+- **note:** Additional publication label, displayed as a button on the publications page (for example, `note: EI/SCIE`)
 - **pdf:** URL or path to PDF file (`pdf: /assets/papers/2023-paper.pdf`)
 - **poster:** URL to conference poster (`poster: /assets/posters/poster.pdf`)
 - **preview:** URL to preview image (`preview: /assets/img/papers/paper-preview.jpg`)
