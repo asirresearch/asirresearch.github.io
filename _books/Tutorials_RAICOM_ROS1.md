@@ -9,7 +9,7 @@ categories: Robotics
 tags: ro
 #buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
 started: "2025"
-#finished: 2024-09-07
+finished: 2025-12-30
 released: v1.2
 stars: 5
 #goodreads_review: 6318556633
