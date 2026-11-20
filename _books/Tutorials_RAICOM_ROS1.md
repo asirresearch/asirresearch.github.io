@@ -8,7 +8,7 @@ cover: assets/img/book_covers/cover_RAICOM_ros1.jpg
 categories: Robotics
 tags: ro
 #buy_link: https://www.amazon.com/Godfather-Deluxe-Mario-Puzo/dp/0593542592
-started: 2024
+started: "2025"
 #finished: 2024-09-07
 released: v1.2
 stars: 5
