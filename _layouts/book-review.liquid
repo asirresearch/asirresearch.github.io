@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-{% assign year = page.started | date: '%Y' %}
+{% assign started = page.started | append: '' %}
+{% if started.size == 4 %}
+  {% assign year = started %}
+{% else %}
+  {% assign year = page.started | date: '%Y' %}
+{% endif %}
 {% assign tags = page.tags | join: '' %}
 {% assign categories = page.categories | join: '' %}
 

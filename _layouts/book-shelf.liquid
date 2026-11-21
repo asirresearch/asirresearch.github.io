@@ -7,12 +7,17 @@ layout: page
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
     {% for item in collection reversed %}
-      {% assign current_year = item.started | date: '%Y' %}
+      {% assign started = item.started | append: '' %}
+      {% if started.size == 4 %}
+        {% assign current_year = started %}
+      {% else %}
+        {% assign current_year = item.started | date: '%Y' %}
+      {% endif %}
       {% if current_year != year %}
         {% unless forloop.first %}
           </ul>
         {% endunless %}
-        <h1 id="y{{item.started | date: "%Y"}}">
+        <h1 id="y{{ current_year }}">
           <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
         </h1>
         <ul>
@@ -28,14 +33,13 @@ layout: page
           {% elsif item.isbn %}
             <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
           {% endif %}
-          {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
-            {% assign status = item.status | downcase | strip %}
-            {% if statuses contains status %}
-              <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
-            {% else %}
-              <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
-            {% endif %}
+          {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+          {% assign status = item.status | downcase | strip %}
+          {% if item.status and statuses contains status %}
+            <figcaption class="{{ status }}">{{ status | upcase }}</figcaption>
+          {% elsif item.categories %}
+            {% assign categories = item.categories | join: ', ' %}
+            <figcaption class="category">{{ categories }}</figcaption>
           {% else %}
             <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
           {% endif %}
