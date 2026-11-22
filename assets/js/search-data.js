@@ -76,8 +76,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-this-is-the-first-anouncement-with-asir-official-website-sparkles-smile",
-          title: 'This is the first anouncement with ASIR official Website! :sparkles: smile:',
+            },},{id: "news-this-is-the-first-anouncement-with-asir-official-website-sparkle-smile",
+          title: 'This is the first anouncement with ASIR official Website! :sparkle:  :smile:',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
